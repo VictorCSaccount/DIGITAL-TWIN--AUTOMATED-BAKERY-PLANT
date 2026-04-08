@@ -35,7 +35,8 @@ The simulation is built on a three-tier hierarchical architecture:
 #### 📐 Process Flow & Instrumentation (P&ID)
 The system architecture follows the **ISA-5.1 standard** for P&ID, mapping every physical sensor (Temperature, Level, Flow, Humidity) to its corresponding logic in the Control Layer.
 
-![Industrial Bakery P&ID](images/PID_proiect.png)
+
+![Industrial Bakery P&ID](images/P&ID%20proiect.png)
 *Figure 5: P&ID of the industrial line, detailing the 3-zone Oven and Proofer sensor loops.*
 
 #### 🔌 Industrial Communication (Modbus TCP/IP)
@@ -105,7 +106,7 @@ Simularea este construită pe o arhitectură ierarhică pe trei niveluri:
 #### 📐 Schema de Flux și Instrumentație (P&ID)
 Arhitectura sistemului respectă **standardul ISA-5.1** pentru P&ID, mapând fiecare senzor fizic (Temperatură, Nivel, Debit, Umiditate) la logica corespunzătoare din nivelul de control.
 
-![P&ID Linie Panificație](images/PID_proiect.png)
+![P&ID Linie Panificație](images/P&ID%20proiect.png)
 *Figura 5: P&ID-ul complet al liniei industriale.*
 
 #### 🔌 Comunicare Industrială (Modbus TCP/IP)
@@ -132,7 +133,7 @@ Nucleul termic al cuptorului implică implementarea ecuațiilor de bilanț energ
 
 ---
 
-### 🚀 Roadmap (Etape Viitoare)
+### 🚀 Etape Viitoare
 
 * [ ] **Strategii Avansate de Control:** Trecerea de la PID standard la control de tip Feed-forward pentru a compensa variațiile de viteză ale benzii.
 * [ ] **Integrare Stateflow și Siguranță:** Dezvoltarea automatei de stări GRAFCET complete pentru rutinele de pornire, oprire și interlock-uri de siguranță (ex. oprirea arzătorului dacă banda se blochează).
